@@ -13,9 +13,8 @@ function nowServing(katzDeliLine) {
     return (`Currently serving ${katzDeliLine.shift()}.`);
   }
 }
- 
 
-var newLine = [];
+let newLine = [];
 
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length === 0) {

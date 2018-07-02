@@ -28,3 +28,10 @@ function currentLine(katzDeliLine) {
   }
   return (`The line is currently:${newLine}`);
 }
+
+let totalNumber = 0;
+
+function redWheel() {
+  totalNumber++;
+  return totalNumber;
+}
